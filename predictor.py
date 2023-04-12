@@ -28,8 +28,8 @@ def run(namecsv,ques):
     else:
         return df.loc[df.index[indices],'question1']
     
-#name="quesdataset.csv"
-#print("Sent...")
-#similar=run(name,"What is the purpose of life?")
+name="quesdataset.csv"
+print("Sent...")
+similar=run(name,"What is the purpose of life?")
 
-#print(similar)
+print(similar)
